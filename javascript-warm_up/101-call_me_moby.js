@@ -1,9 +1,9 @@
 let i = 0;
-function iterate (x, theFunction){
+function callMeMoby (x, theFunction){
     while (i < x)
     {
         theFunction();
         i++;
     }
 }
-module.exports.iterate = iterate;
+module.exports.callMeMoby = callMeMoby;
