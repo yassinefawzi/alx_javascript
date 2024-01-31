@@ -1,16 +1,15 @@
 const myObject = {
     type: 'object',
-    value: 12,  
+    value: 12,
     incr() {
         this.value++;
     }
 };
 
-console.log({ type: myObject.type, value: myObject.value });
+console.log(`{ type: '${myObject.type}', value: ${myObject.value} }`);
 myObject.incr();
-console.log({ type: myObject.type, value: myObject.value, incr: [Function] });
+console.log(`{ type: '${myObject.type}', value: ${myObject.value}, incr: [Function] }`);
 myObject.incr();
-console.log({ type: myObject.type, value: myObject.value, incr: [Function] });
+console.log(`{ type: '${myObject.type}', value: ${myObject.value}, incr: [Function] }`);
 myObject.incr();
-console.log({ type: myObject.type, value: myObject.value, incr: [Function] });
-  
+console.log(`{ type: '${myObject.type}', value: ${myObject.value}, incr: [Function] }`);
