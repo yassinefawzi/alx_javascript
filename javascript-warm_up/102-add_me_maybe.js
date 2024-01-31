@@ -1,5 +1,5 @@
-function add_me (number, theFunction){
+function addMeMaybe (number, theFunction){
     number++;
     theFunction(number);
 }
-module.exports.add_me = add_me;
+module.exports.addMeMaybe = addMeMaybe;
