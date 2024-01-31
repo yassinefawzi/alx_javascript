@@ -6,8 +6,8 @@ const myObject = {
     }
 };
 
-console.log(myObject);
-myObject.incr({ type: myObject.type, value: myObject.value });
+console.log({ type: myObject.type, value: myObject.value });
+myObject.incr();
 console.log({ type: myObject.type, value: myObject.value, incr: myObject.incr });
 myObject.incr();
 console.log({ type: myObject.type, value: myObject.value, incr: myObject.incr });
